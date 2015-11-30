@@ -20,7 +20,7 @@ def max_of_three(one,two,three):
 max_of_three(1,8,50)
 
 """
-Better solution"
+Better solution
 
 def max_of_three(one, two, three):
   max = one
