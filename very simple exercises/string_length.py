@@ -10,3 +10,10 @@ def string_length(x):
 
 result = string_length("this-length-isn't-19")
 print result
+
+"""
+Better solution:
+
+def string_length(x):
+  return sum([1 for i in x])
+"""

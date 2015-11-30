@@ -18,3 +18,14 @@ def max_of_three(one,two,three):
     return three
 
 max_of_three(1,8,50)
+
+"""
+Better solution"
+
+def max_of_three(one, two, three):
+  max = one
+  for i in (two, three):
+    if i > max:
+      max = i
+  return max
+"""

@@ -12,8 +12,17 @@ def is_a_vowel(x):
       result = False
   if result == True:
     print "%s is a vowel" % x
+    return result
   else:
     print "%s is not a vowel" % x
+    return result
   
 
 is_a_vowel("y")
+
+"""
+Much better solution...
+
+def is_a_vowel(x):
+    return x in ['a','e','i','o','u']
+"""
